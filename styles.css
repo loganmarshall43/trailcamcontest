@@ -45,6 +45,7 @@ h1 {
 
 /* fewer pixels under count before button */
 .card .count {
+  display: none;
   text-align: center;
   font-size: 0.9rem;
   margin: 0 0 4px;
