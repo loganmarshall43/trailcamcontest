@@ -38,6 +38,7 @@ h1 {
 }
 
 .card .count {
+  display: none;
   text-align: center;
   font-size: 0.9rem;
   margin: 0 0 8px;
