@@ -79,8 +79,8 @@ function renderGallery() {
     card.className = 'card';
 
     card.innerHTML = `
-      <img src="${img.src}" alt="${img.caption}">
       <p class="category-caption">${img.caption}</p>
+      <img src="${img.src}" alt="${img.caption}">
       <p class="subcaption">Coming Soon</p>
     `;
 
