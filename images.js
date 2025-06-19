@@ -18,7 +18,8 @@ window.images = [
   {
     id: 'OtherWesternBigGame',
     src: '/images/placeholder.jpg',
-    caption: 'Other Western Big Game'
+    caption: 'Other Western Big Game',
+    name: 'John Stamos'
   },
   {
     id: 'Predator',

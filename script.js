@@ -81,7 +81,7 @@ function renderGallery() {
     card.innerHTML = `
       <p class="category-caption">${img.caption}</p>
       <img src="${img.src}" alt="${img.caption}">
-      <p class="subcaption">Coming Soon</p>
+      <p class="subcaption">${img.name}</p>
     `;
 
     gallery.append(card);
