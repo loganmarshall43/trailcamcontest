@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Epic Trail Cam Contest 2025</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>EPIC TRAIL CAM CONTEST 2025</h1>
+  <div id="gallery"></div>
+
+  <script type="module">
+    import { initializeApp }   from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+    import { getDatabase }     from "https://www.gstatic.com/firebasejs/11.9.1/firebase-database.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAJiCj7d_UYD29UqJPDUlwSbv15QkQiBbw",
+      authDomain: "trailcamvotes.firebaseapp.com",
+      databaseURL: "https://trailcamvotes-default-rtdb.firebaseio.com",
+      projectId: "trailcamvotes",
+      storageBucket: "trailcamvotes.firebasestorage.app",
+      messagingSenderId: "502059726800",
+      appId: "1:502059726800:web:6e1c7346b1986be205abd5"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    window.db = getDatabase(app);
+  </script>
+
+  <script defer src="images.js"></script>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
