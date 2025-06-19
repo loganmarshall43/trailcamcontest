@@ -12,6 +12,19 @@ body {
   min-height: 100vh;   
 }
 
+.site-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+.site-logo {
+  max-width: 250px;
+  width: 80%;
+  height: auto;
+}
+
 h1 {
   text-align: center;
   margin: 24px 0;
