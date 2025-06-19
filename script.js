@@ -1,4 +1,6 @@
 // script.js
+
+/*
 import { ref, onValue, runTransaction }
   from "https://www.gstatic.com/firebasejs/11.9.1/firebase-database.js";
 
@@ -60,4 +62,31 @@ async function submitVote(newId) {
   renderGallery();
 }
 
+renderGallery();
+*/
+
+// script.js
+
+const images  = window.images || [];
+const gallery = document.getElementById('gallery');
+
+// Render the five placeholder cards
+function renderGallery() {
+  gallery.innerHTML = '';
+
+  images.forEach(img => {
+    const card = document.createElement('div');
+    card.className = 'card';
+
+    card.innerHTML = `
+      <img src="${img.src}" alt="${img.caption}">
+      <p class="category-caption">${img.caption}</p>
+      <p class="subcaption">Coming Soon</p>
+    `;
+
+    gallery.append(card);
+  });
+}
+
+// initialize
 renderGallery();
