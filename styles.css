@@ -24,21 +24,21 @@ h1 {
 }
 
 .card {
+  width: 280px;
   display: flex;
   flex-direction: column;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  /* make cards a bit larger since only 5 */
-  width: 240px;
 }
 
-.card img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 4px;
+.card .category-caption {
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin: 12px 0 4px;
+  text-align: center;
 }
 
 .card .category-caption {
@@ -57,7 +57,6 @@ h1 {
   padding-top: 10px;
 }
 
-/* still keep votes/buttons hidden for now */
 .card .count,
 .card button {
   display: none;
