@@ -43,9 +43,10 @@ h1 {
 
 .card .category-caption {
   font-weight: bold;
-  font-size: 1.4rem;    /* a bit bigger */
+  font-size: 1.4rem;
   margin: 12px 0 4px;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .card .subcaption {
@@ -53,6 +54,7 @@ h1 {
   margin: 0 0 12px;
   text-align: center;
   color: #666;
+  padding-top: 10px;
 }
 
 /* still keep votes/buttons hidden for now */
